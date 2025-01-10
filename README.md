@@ -22,3 +22,7 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Usage Instructions
+
+Type the prompt based filter in the given text field and press "Enter" to search.
