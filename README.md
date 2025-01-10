@@ -6,7 +6,8 @@ Create a .env file with the following variable:
 NEXT_PUBLIC_OPENAI_API_KEY=<Your-OpenAI-API-Key>
 NEXT_PUBLIC_TRAN_API_KEY=<Your-Transilience-API-Key>
 ```
-Replace \<Your-API-Key\> with a valid OpenAI Key.
+Replace \<Your-OpenAI-API-Key> with a valid OpenAI Key.
+Replace \<Your-Transilience-API-Key> with a valid Transilience API Token.
 
 First, run the development server:
 
