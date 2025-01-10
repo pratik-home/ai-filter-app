@@ -28,13 +28,10 @@ export async function searchCVES(query: string) {
               type: ["object", "null"],
               description: "Dictionary of all the fields name and sorting order (-1 for Descending, 1 for Ascending)",
               properties: {
-                name: { type: ["number", "null"] },
-                severity: { type: ["number", "null"] },
-                api_created: { type: ["number", "null"] },
-                description: { type: ["number", "null"] },
-                state: { type: ["number", "null"] },
-                epss_score: { type: ["number", "null"] },
-                epss_percentile: { type: ["number", "null"] }
+                name: { type: "number" },
+                severity: { type: "number" },
+                api_created: { type: "number" },
+                api_last_modified: { type: "number" }
               },
               additionalProperties: true
             },
