@@ -55,8 +55,8 @@ function CVERow({ cve }: { cve: CVE }) {
     <div className="flex items-center gap-4 rounded-lg border border-slate-800 bg-slate-900 px-4 py-3">
       <div className="flex-1 space-y-1">
         <div className="flex items-center gap-2">
-          <span className="text-sm text-slate-500">{cve.name}</span>
-          <span className={`inline-flex items-center px-2 py-1 rounded-full text-sm border border-slate-800 ${severityColor.container}`}>
+          <span className="text-sm text-slate-300">{cve.name}</span>
+          <span className={`inline-flex items-center px-2 py-1 rounded-full text-sm border ${severityColor.container}`}>
             <Circle className={`mr-1 h-3 w-3 ${severityColor.icon}`} />
             {severityLabel} ({cve.severity?.toFixed(1) ?? '0.0'})
           </span>
