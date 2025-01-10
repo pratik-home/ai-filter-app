@@ -84,7 +84,7 @@ export async function searchCVES(query: string) {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer 89asdcu09qeWSDVsd8jijdnxmieWEDwe8vuf98uvjdEFSDvj9vEDWEmqpqSF2feA`
+        'Authorization': `Bearer ${process.env.NEXT_PUBLIC_TRAN_API_KEY}`
       },
       body: JSON.stringify(filterParams)
     }).then(res => res.json())
